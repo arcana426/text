@@ -36,4 +36,4 @@
  - [公式サイト](https://arcana426.42web.io)公式サイト</a>に「Hello World」と表示しました。
 
 ### beta ver.1.0  -Start- 2024年9月2日
- - <a href="https://infinityfree.com" target="_blank">infinityfree</a>で[公式サイト](https://arcana426.42web.io)を開設しました。
+ - [infinityfree](https://www.infinityfree.com/)で[公式サイト](https://arcana426.42web.io)を開設しました。
