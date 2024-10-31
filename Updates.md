@@ -22,6 +22,6 @@
 
 # 更新内容
 ## beta ver.1.1  -Start- 2024年9月2日
- - [公式サイト](https://arcana426.42web.io)に「Hello World」と表示させました。
+ - [公式サイト](https://arcana426.42web.io)に「Hello World」と表示しました。
 ## beta ver.1.0  -Start- 2024年9月1日
  - [infinityfree](https://infinityfree.com)で[公式サイト](https://arcana426.42web.io)を開設しました。
