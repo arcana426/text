@@ -23,7 +23,7 @@
     公式サイト</a>上に乗る可能性があります。
 
 # 更新内容
-## beta ver.1.1  -Start- 2024年9月4日
+## beta ver.1.2  -Start- 2024年9月4日
  - [公式サイト](https://arcana426.42web.io)に[bulma](https://bulma.io) を使用し「box」内に「Hello World」と表示しました。
 
 ## beta ver.1.1  -Start- 2024年9月3日
