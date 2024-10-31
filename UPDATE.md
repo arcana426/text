@@ -22,10 +22,10 @@
     公式サイト</a>上に乗る可能性があります。
 
 # 更新内容
-## beta ver.1.4
+## beta ver.1.4 -Start- 2024年9月6日
  - [Zero SSL](https://zerossl.com/) で TSL 証明証 を発行し [公式サイト](https://arcana426.42web.io) のURL を「http://」から「https://」にしてサイト通信を暗号化しました。
 
-## beta ver.1.3
+## beta ver.1.3 -Start- 2024年9月5日
  - [公式サイト](https://arcana426.42web.io)に[fontawesome](https://fontawesome.com)を使用しデザインを仕上げました。
 
 ## beta ver.1.2  -Start- 2024年9月4日
