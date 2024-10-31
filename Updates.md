@@ -23,7 +23,7 @@
 
 # 更新内容
 ## beta ver.1.4
- - SSL / TSL 証明証 を発行し [公式サイト](https://arcana426.42web.io) のURL を「http://」から「https://」にしてサイト通信を暗号化しました。
+ - TSL 証明証 を発行し [公式サイト](https://arcana426.42web.io) のURL を「http://」から「https://」にしてサイト通信を暗号化しました。
 
 ## beta ver.1.3
  - [公式サイト](https://arcana426.42web.io)に[fontawesome](https://fontawesome.com)を使用しデザインを仕上げました。
