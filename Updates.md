@@ -23,6 +23,12 @@
     公式サイト</a>上に乗る可能性があります。
 
 # 更新内容
+## beta ver.1.4
+ - SSL / TSL 証明証 を発行し [公式サイト](https://arcana426.42web.io) のURL を「http://」から「https://」にしてサイト通信を暗号化しました。
+
+## beta ver.1.3
+ - [公式サイト](https://arcana426.42web.io)に[fontawesome](https://fontawesome.com)を使用しデザインを仕上げました。
+
 ## beta ver.1.2  -Start- 2024年9月4日
  - [公式サイト](https://arcana426.42web.io)に[bulma](https://bulma.io) を使用し「box」内に「Hello World」と表示しました。
 
