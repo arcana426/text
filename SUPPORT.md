@@ -17,6 +17,6 @@
 
 ## 報告先
  - Form [Google Form](https://example.com)
- - メール: support@example.com
+ - メール: arcana426+support@outlook.com
  - Twitter: [@example](https://example.com)
 私たちは、あなたの質問や問題にできるだけ早く対応するよう努めます。<br>ご利用いただきありがとうございます！
