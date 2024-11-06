@@ -26,20 +26,35 @@
 ### **追加**
  - [公式サイト](https://arcana426.42web.io)にトグルスイッチをオンにしたら開発中のページのボタンが出てくるようにしました
 
-### beta ver.1.8 -Start- 2024年9月10
+### beta ver.1.9 -Start- 2024年9月11日
 ### ****
 
-### beta ver.1.7 -Start- 2024年9月9日
+### beta ver.1.8 -Start- 2024年9月10日
 ### **作成**
  - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でOAuth認証画面を作成しました。
 
-### beta ver.1.6 -Start- 2024年9月8日
+### beta ver.1.7 -Start- 2024年9月9日
 ### **作成**
- - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でプロジェクトを作成しました
+ - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でプロジェクトを作成しました。
+
+### beta ver.1.7 -Google form- 2024年9月8日
+### **作成**
+ - Google Login機能を実装するために[公式サイト](https://arcana426.42web.io)にgoogleform.jsを作成し、リンクさせました。
+
+### beta ver.1.6 -Google form- 2024年9月8日
+### **作成**
+ - Google Login機能を実装するために[公式サイト](https://arcana426.42web.io)にgoogleform.htmlを作成しました。
 
 ### beta ver.1.5 -Start- 2024年9月7日
-### ***追加*
+### **追加**
 - [公式サイト](https://arcana426.42web.io)にiOS風のトグルスイッチを追加しました。
+
+### beta ver.1.6 -Start-
+ - 多言語で日本語が選択された場合、```/ja-jp/index.html```
+
+### beta ver.1.5 -Start- 2024年9月7日
+### **追加**
+ - 多言語に対応するため[公式サイト](https://arcana426.42web.io)のトップページ(index.html)を言語仕分け用にしました
 
 ### beta ver.1.4 -Start- 2024年9月6日
 ### **安全**
