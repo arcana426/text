@@ -26,35 +26,61 @@
 ### **追加**
  - [公式サイト](https://arcana426.42web.io)にトグルスイッチをオンにしたら開発中のページのボタンが出てくるようにしました
 
-### beta ver.1.9 -Start- 2024年9月11日
-### ****
+### beta ver.2.7 -Google Form- 2024年9月20日
+### **追加**
+ - Google Login をした後に情報がURLにまとめられて右上の「ユーザー」で表示できるようにしました。
 
-### beta ver.1.8 -Start- 2024年9月10日
+### beta ver.2.6 -Google Form- 2024年9月19日
+### **取得**
+ - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でクライアントIDを取得しました。
+
+### beta ver.2.5 -Google Form- 2024年9月18日
 ### **作成**
  - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でOAuth認証画面を作成しました。
 
-### beta ver.1.7 -Start- 2024年9月9日
+### beta ver.2.4 -Google Form- 2024年9月17日
 ### **作成**
  - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でプロジェクトを作成しました。
 
-### beta ver.1.7 -Google form- 2024年9月8日
+### beta ver.2.3 -Google Form- 2024年9月16日
 ### **作成**
- - Google Login機能を実装するために[公式サイト](https://arcana426.42web.io)にgoogleform.jsを作成し、リンクさせました。
+ - Google Login機能を実装するために[公式サイト](https://arcana426.42web.io)に```googleform.js```を作成し、リンクさせました。
 
-### beta ver.1.6 -Google form- 2024年9月8日
+### beta ver.2.2 -Google Form- 2024年9月15日
 ### **作成**
- - Google Login機能を実装するために[公式サイト](https://arcana426.42web.io)にgoogleform.htmlを作成しました。
+ - Google Login機能を実装するために[公式サイト](https://arcana426.42web.io)に```googleform.html```を作成しました。
 
-### beta ver.1.5 -Start- 2024年9月7日
+### beta ver.2.1 -Home- 2024年9月14日
 ### **追加**
 - [公式サイト](https://arcana426.42web.io)にiOS風のトグルスイッチを追加しました。
 
-### beta ver.1.6 -Start-
- - 多言語で日本語が選択された場合、```/ja-jp/index.html```
+### beta ver.2 -Home- 2024年9月13日
+### **追加**
+ - 多言語で日本語以外の言語が選択された場合、```/en-us/index.html```に移動するようにしました。
+
+### beta ver.1.9 -Home- 2024年9月12日
+### **追加**
+ - 多言語で日本語が選択された場合、```/ja-jp/index.html```に移動するようにしました。
+
+### beta ver.1.8 -Home- 2024年9月11日
+### **追加**
+ - 読み込まれている間読み込み中のアニメーションがつくように```loading.gif```を追加しました。
+
+### beta ver.1.7 -Home- 2024年9月10日
+### **作成**
+ - 多言語に対応するため、```index.css```を作成しました。
+
+### beta ver.1.6 -Home- 2024年9月9日
+### **作成**
+ - 多言語に対応するため、```index.js```を作成しました。
+
+### beta ver.1.6 -Home- 2024年9月8日
+### **作成**
+ - 多言語に対応するため[公式サイト](https://arcana426.42web.io)のトップページ```index.html```を言語仕分け用に作成しました。
 
 ### beta ver.1.5 -Start- 2024年9月7日
-### **追加**
- - 多言語に対応するため[公式サイト](https://arcana426.42web.io)のトップページ(index.html)を言語仕分け用にしました
+### **作成**
+ - ```favi.ico```を作成し、追加しました。
 
 ### beta ver.1.4 -Start- 2024年9月6日
 ### **安全**
@@ -74,4 +100,4 @@
 
 ### beta ver.1.0  -Start- 2024年9月2日
 ### **取得**
- - [infinityfree](https://www.infinityfree.com/)で[公式サイト](https://arcana426.42web.io)のドメインを取得しました
+ - [infinityfree](https://www.infinityfree.com/)で[公式サイト](https://arcana426.42web.io)のドメインを取得しました。
