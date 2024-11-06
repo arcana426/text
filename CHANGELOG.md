@@ -22,18 +22,41 @@
 
 # 更新内容
 このプロジェクトに対するすべての注目すべき変更はこのファイルに記録されます。
-## [Unreleased]
+### beta ver.2 -Start- 2024年9月12日
+### **追加**
+ - [公式サイト](https://arcana426.42web.io)にトグルスイッチをオンにしたら開発中のページのボタンが出てくるようにしました
+
+### beta ver.1.8 -Start- 2024年9月10
+### ****
+
+### beta ver.1.7 -Start- 2024年9月9日
+### **作成**
+ - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でOAuth認証画面を作成しました。
+
+### beta ver.1.6 -Start- 2024年9月8日
+### **作成**
+ - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でプロジェクトを作成しました
+
+### beta ver.1.5 -Start- 2024年9月7日
+### ***追加*
+- [公式サイト](https://arcana426.42web.io)にiOS風のトグルスイッチを追加しました。
+
 ### beta ver.1.4 -Start- 2024年9月6日
+### **安全**
  - [Zero SSL](https://zerossl.com/) で TSL 証明証 を発行し [公式サイト](https://arcana426.42web.io) のURL を「http://」から「https://」にしてサイト通信を暗号化しました。
 
 ### beta ver.1.3 -Start- 2024年9月5日
+### **デザイン、UI**
  - [公式サイト](https://arcana426.42web.io)に[fontawesome](https://fontawesome.com)を使用しデザインを仕上げました。
 
 ### beta ver.1.2  -Start- 2024年9月4日
+### **デザイン、UI**
  - [公式サイト](https://arcana426.42web.io)に[bulma](https://bulma.io) を使用し「box」内に「Hello World」と表示しました。
 
 ### beta ver.1.1  -Start- 2024年9月3日
+### **作成**
  - [公式サイト](https://arcana426.42web.io)公式サイト</a>に「Hello World」と表示しました。
 
 ### beta ver.1.0  -Start- 2024年9月2日
- - [infinityfree](https://www.infinityfree.com/)で[公式サイト](https://arcana426.42web.io)を開設しました。
+### **取得**
+ - [infinityfree](https://www.infinityfree.com/)で[公式サイト](https://arcana426.42web.io)のドメインを取得しました
