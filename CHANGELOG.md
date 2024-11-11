@@ -26,37 +26,49 @@
 ### **追加**
  - [公式サイト](https://arcana426.42web.io)にトグルスイッチをオンにしたら開発中のページのボタンが出てくるようにしました
 
-### beta ver.2.7 -Google Form- 2024年9月20日
+### beta ver.2.8 -Google Form- 2024年9月20日
 ### **追加**
  - Google Login をした後に情報がURLにまとめられて右上の「ユーザー」で表示できるようにしました。
 
-### beta ver.2.6 -Google Form- 2024年9月19日
+### beta ver.2.7 -Google Form- 2024年9月19日
 ### **取得**
  - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でクライアントIDを取得しました。
 
-### beta ver.2.5 -Google Form- 2024年9月18日
+### beta ver.2.6 -Google Form- 2024年9月18日
 ### **作成**
  - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でOAuth認証画面を作成しました。
 
-### beta ver.2.4 -Google Form- 2024年9月17日
+### beta ver.2.5 -Google Form- 2024年9月17日
 ### **作成**
  - Google Login機能を実装するために、[google cloud console](https://console.cloud.google.com)でプロジェクトを作成しました。
 
-### beta ver.2.3 -Google Form- 2024年9月16日
+### beta ver.2.4 -Google Form- 2024年9月16日
 ### **作成**
  - Google Login機能を実装するために[公式サイト](https://arcana426.42web.io)に```googleform.js```を作成し、リンクさせました。
 
-### beta ver.2.2 -Google Form- 2024年9月15日
+### beta ver.2.3 -Google Form- 2024年9月15日
 ### **作成**
  - Google Login機能を実装するために[公式サイト](https://arcana426.42web.io)に```googleform.html```を作成しました。
 
-### beta ver.2.1 -Home- 2024年9月14日
+### beta ver.2.2 -Home- 2024年9月14日
 ### **追加**
 - [公式サイト](https://arcana426.42web.io)にiOS風のトグルスイッチを追加しました。
 
+### beta ver.2.3 -Home- 2024年9月13日
+### **追加**
+ - ```/ja-jp/index.js```を作成しました。
+
+### beta ver.2.2 -Home- 2024年9月13日
+### **追加**
+ - ```/en-us/index.css```を作成しました。
+
+### beta ver.2.1 -Home- 2024年9月13日
+### **追加**
+ - ```/en-us/index.css```を作成しました。
+
 ### beta ver.2 -Home- 2024年9月13日
 ### **追加**
- - 多言語で日本語以外の言語が選択された場合、```/en-us/index.html```に移動するようにしました。
+ - ```/en-us/index.js```を作成しました。
 
 ### beta ver.1.9 -Home- 2024年9月12日
 ### **追加**
