@@ -1,21 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
-  </head>
-  <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Navbar with Warning Overlay</title>
+    <!-- BulmaのCDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- Font AwesomeのCDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 全画面エラーメッセージ -->
+    <div id="errorOverlay" style="display: block;">
+        <div class="error-overlay-content">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <h1>JavaScriptが読み込まれていません</h1>
+            <p>インターネットの接続を確認するか、ページを再読み込みしてください。</p>
+        </div>
     </div>
-  </section>
-  </body>
+
+    <!-- ナビゲーションバー -->
+    <nav class="navbar is-white">
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <span class="icon" onclick="openModal()">
+                    <i class="fa-solid fa-code"></i>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- モーダル -->
+    <div id="logModal" class="modal">
+        <div class="modal-background" onclick="closeModal()"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <p class="modal-card-title">Log Viewer</p>
+                <button class="delete" aria-label="close" onclick="closeModal()"></button>
+            </header>
+            <section class="modal-card-body">
+                <!-- ログ表示エリア -->
+                <div id="logContainer">
+                    <div class="log-entry error" id="initialLog">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <div>
+                            <p>JavaScriptが読み込まれていません。</p>
+                            <p>インターネットの接続を確認するか、ページを再読み込みしてください。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- JavaScriptファイルの読み込み -->
+    <script src="script.js"></script>
+</body>
+
 </html>
