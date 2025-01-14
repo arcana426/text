@@ -94,7 +94,48 @@ body {
 /* アイコンを囲む枠のスタイル */
 .icon-wrapper {
     border: 2px solid #00d1b2; /* 枠の色を設定 */
-    padding: 5px; /* アイコン周囲の余白を設定 */
-    border-radius: 5px; /* 角を丸める */
+    padding: 10px; /* アイコン周囲の余白を設定 */
+    border-radius: 10px; /* 角を丸める */
     display: inline-block; /* アイコンを囲むためにインラインブロックに設定 */
+    cursor: pointer; /* カーソルをポインターに変更 */
+    background-color: #fff; /* 背景色を設定 */
+    transition: background-color 0.3s, transform 0.3s; /* トランジションを追加 */
+}
+
+/* アイコンを囲む枠のホバー効果 */
+.icon-wrapper:hover {
+    background-color: #00d1b2; /* ホバー時の背景色を設定 */
+    color: #fff; /* ホバー時の文字色を設定 */
+    transform: scale(1.1); /* ホバー時に拡大 */
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .navbar-item .icon {
+        font-size: 1rem;
+    }
+
+    .icon-wrapper {
+        padding: 8px;
+    }
+
+    .error-overlay-content {
+        padding: 20px;
+    }
+
+    .error-overlay-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .error-overlay-content p {
+        font-size: 1rem;
+    }
+
+    .log-entry {
+        padding: 6px 10px;
+    }
+
+    .log-entry i {
+        font-size: 1.2rem;
+    }
 }
