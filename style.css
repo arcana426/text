@@ -1,10 +1,20 @@
+/* カラーパレットの設定 */
+:root {
+    --primary-color: #00d1b2;
+    --error-color: #ff4c4c;
+    --background-color: #f8f5b2;
+    --text-color: #555;
+    --light-bg-color: #f9f9f9;
+    --modal-bg-opacity: rgba(10, 10, 10, 0.86);
+}
+
 /* 全体の背景色 */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f5b2; /* 黒っぽい黄色 */
+    background-color: var(--background-color);
     margin: 0;
     padding: 0;
-    overflow: hidden; /* スクロールを防止 */
+    overflow: hidden;
 }
 
 /* ナビゲーションバー */
@@ -14,7 +24,7 @@ body {
 }
 
 .navbar-item .icon:hover {
-    color: #00d1b2;
+    color: var(--primary-color);
 }
 
 /* 全画面エラーメッセージ */
@@ -24,127 +34,44 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #f8f5b2; /* 背景色を黒っぽい黄色に */
+    background-color: var(--background-color);
     display: flex;
-    justify-content: center; /* 横方向で中央揃え */
-    align-items: center; /* 縦方向で中央揃え */
+    justify-content: center;
+    align-items: center;
     z-index: 1000;
-    overflow: hidden; /* スクロールを防止 */
+    overflow: hidden;
 }
 
-/* オーバーレイのボックス */
 .error-overlay-content {
     background: white;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    max-width: 400px; /* 最大幅を設定 */
-    width: 90%; /* 小さい画面でも適応されるように */
-    box-sizing: border-box; /* パディングを含むサイズ計算 */
+    max-width: 400px;
+    width: 90%;
+    box-sizing: border-box;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-/* オーバーレイのアイコン */
 .error-overlay-content i {
     font-size: 3rem;
-    color: #ff4c4c; /* 赤色 */
+    color: var(--error-color);
     margin-bottom: 10px;
 }
 
-/* オーバーレイのタイトル */
 .error-overlay-content h1 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-/* オーバーレイの説明文 */
 .error-overlay-content p {
     font-size: 1.2rem;
-    color: #555;
-}
-
-/* ログエントリ */
-.log-entry {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-    padding: 8px 12px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-.log-entry.error i {
-    color: #ff4c4c;
-}
-
-.log-entry.success i {
-    color: #00d1b2;
-}
-
-.log-entry i {
-    margin-right: 10px;
-    font-size: 1.5rem;
-}
-
-/* アイコンを囲む枠のスタイル */
-.icon-wrapper {
-    border: 2px solid #00d1b2; /* 枠の色を設定 */
-    padding: 10px; /* アイコン周囲の余白を設定 */
-    border-radius: 10px; /* 角を丸める */
-    display: inline-block; /* アイコンを囲むためにインラインブロックに設定 */
-    cursor: pointer; /* カーソルをポインターに変更 */
-    background-color: #fff; /* 背景色を設定 */
-    transition: background-color 0.3s, transform 0.3s; /* トランジションを追加 */
-}
-
-/* アイコンを囲む枠のホバー効果 */
-.icon-wrapper:hover {
-    background-color: #00d1b2; /* ホバー時の背景色を設定 */
-    color: #fff; /* ホバー時の文字色を設定 */
-    transform: scale(1.1); /* ホバー時に拡大 */
-}
-
-/* モーダルの背景 */
-.modal-background {
-    background-color: rgba(10, 10, 10, 0.86); /* 半透明の黒背景 */
-}
-
-/* モーダルカード */
-.modal-card {
-    max-width: 600px; /* モーダルの最大幅を設定 */
-    margin: 0 auto; /* 中央に配置 */
-    border-radius: 8px; /* 角を丸める */
-    overflow: hidden; /* コンテンツがはみ出さないようにする */
-}
-
-/* モーダルカードヘッダー */
-.modal-card-head {
-    background-color: #00d1b2; /* ヘッダーの背景色 */
-    color: white; /* ヘッダーの文字色 */
-    padding: 20px; /* パディングを追加 */
-    display: flex;
-    justify-content: space-between; /* タイトルと閉じるボタンを左右に配置 */
-    align-items: center; /* 垂直方向の中央揃え */
-}
-
-/* モーダルカードボディ */
-.modal-card-body {
-    padding: 20px; /* パディングを追加 */
-    background-color: #f9f9f9; /* ボディの背景色 */
-}
-
-/* モーダルカードフッター */
-.modal-card-footer {
-    background-color: #f5f5f5; /* フッターの背景色 */
-    padding: 20px; /* パディングを追加 */
-    display: flex;
-    justify-content: flex-end; /* 右寄せ */
-    border-top: 1px solid #ddd; /* 上部の境界線 */
+    color: var(--text-color);
 }
 
 /* ログエントリ */
@@ -154,29 +81,87 @@ body {
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* シャドウを追加 */
+    background-color: var(--light-bg-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* ログエントリのアイコン */
 .log-entry i {
     margin-right: 10px;
     font-size: 1.5rem;
 }
 
-/* ログエントリのテキスト */
-.log-entry div {
-    flex: 1;
-}
-
-/* 成功メッセージのスタイル */
 .log-entry.success i {
-    color: #00d1b2;
+    color: var(--primary-color);
 }
 
-/* エラーメッセージのスタイル */
 .log-entry.error i {
-    color: #ff4c4c;
+    color: var(--error-color);
+}
+
+/* アイコンを囲む枠のスタイル */
+.icon-wrapper {
+    border: 2px solid var(--primary-color);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s, transform 0.2s ease-out;
+}
+
+.icon-wrapper:hover,
+.icon-wrapper:focus {
+    outline: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* モーダルの背景 */
+.modal-background {
+    background-color: var(--modal-bg-opacity);
+}
+
+/* モーダルカード */
+.modal-card {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal-card-head {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-card-body {
+    padding: 20px;
+    background-color: var(--light-bg-color);
+}
+
+.modal-card-footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #ddd;
 }
 
 /* レスポンシブ対応 */
@@ -211,10 +196,12 @@ body {
 
     .modal-card {
         width: 90%;
-        max-width: none; /* 最大幅を解除 */
+        max-width: none;
     }
 
-    .modal-card-head, .modal-card-body, .modal-card-footer {
-        padding: 10px; /* パディングを調整 */
+    .modal-card-head,
+    .modal-card-body,
+    .modal-card-footer {
+        padding: 10px;
     }
 }
