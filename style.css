@@ -109,6 +109,76 @@ body {
     transform: scale(1.1); /* ホバー時に拡大 */
 }
 
+/* モーダルの背景 */
+.modal-background {
+    background-color: rgba(10, 10, 10, 0.86); /* 半透明の黒背景 */
+}
+
+/* モーダルカード */
+.modal-card {
+    max-width: 600px; /* モーダルの最大幅を設定 */
+    margin: 0 auto; /* 中央に配置 */
+    border-radius: 8px; /* 角を丸める */
+    overflow: hidden; /* コンテンツがはみ出さないようにする */
+}
+
+/* モーダルカードヘッダー */
+.modal-card-head {
+    background-color: #00d1b2; /* ヘッダーの背景色 */
+    color: white; /* ヘッダーの文字色 */
+    padding: 20px; /* パディングを追加 */
+    display: flex;
+    justify-content: space-between; /* タイトルと閉じるボタンを左右に配置 */
+    align-items: center; /* 垂直方向の中央揃え */
+}
+
+/* モーダルカードボディ */
+.modal-card-body {
+    padding: 20px; /* パディングを追加 */
+    background-color: #f9f9f9; /* ボディの背景色 */
+}
+
+/* モーダルカードフッター */
+.modal-card-footer {
+    background-color: #f5f5f5; /* フッターの背景色 */
+    padding: 20px; /* パディングを追加 */
+    display: flex;
+    justify-content: flex-end; /* 右寄せ */
+    border-top: 1px solid #ddd; /* 上部の境界線 */
+}
+
+/* ログエントリ */
+.log-entry {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* シャドウを追加 */
+}
+
+/* ログエントリのアイコン */
+.log-entry i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+/* ログエントリのテキスト */
+.log-entry div {
+    flex: 1;
+}
+
+/* 成功メッセージのスタイル */
+.log-entry.success i {
+    color: #00d1b2;
+}
+
+/* エラーメッセージのスタイル */
+.log-entry.error i {
+    color: #ff4c4c;
+}
+
 /* レスポンシブ対応 */
 @media (max-width: 768px) {
     .navbar-item .icon {
@@ -137,5 +207,14 @@ body {
 
     .log-entry i {
         font-size: 1.2rem;
+    }
+
+    .modal-card {
+        width: 90%;
+        max-width: none; /* 最大幅を解除 */
+    }
+
+    .modal-card-head, .modal-card-body, .modal-card-footer {
+        padding: 10px; /* パディングを調整 */
     }
 }
